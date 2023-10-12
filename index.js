@@ -1,4 +1,4 @@
-var mainElement = document.getElementById("main");
+const mainElement = document.getElementById("main");
 if (mainElement) {
     mainElement.parentNode.removeChild(mainElement);
   }
